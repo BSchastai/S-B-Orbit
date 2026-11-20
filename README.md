@@ -10,11 +10,11 @@
 
 <p align="center">
   <b>Um launcher de Minecraft: Java Edition rápido, bonito e sem complicação.</b><br>
-  Instâncias separadas, mods e modpacks do Modrinth e do CurseForge, skins, temas e atualização automática.
+  Instâncias separadas, mods e modpacks do Modrinth e do CurseForge, skins, temas animados e atualização automática. Em português, inglês, espanhol, francês e alemão.
 </p>
 
 <p align="center">
-  <a href="https://github.com/BSchastai/S-B-Orbit/releases/latest"><b>⬇ Baixar a versão mais nova</b></a>
+  <a href="https://github.com/BSchastai/S-B-Orbit/releases/latest"><b>Baixar a versão mais nova</b></a>
   &nbsp;·&nbsp; <a href="#english">English</a>
 </p>
 
@@ -22,24 +22,24 @@
   <img src=".github/assets/instancias.png" alt="Tela de instâncias" width="90%">
 </p>
 
-## ⬇ Qual arquivo baixar?
+## Qual arquivo baixar?
 
 Na página da [última versão](https://github.com/BSchastai/S-B-Orbit/releases/latest), em **Assets**:
 
 | Sistema | Arquivo | |
 |---|---|---|
-| 🪟 **Windows** | `SB.Orbit_x.y.z_x64-setup.exe` | **Recomendado.** Instalador; atualiza sozinho. |
-| 🪟 Windows (sem instalar) | `SB-Orbit-x.y.z-portable-x64.zip` | Descompacte e abra o `SB Orbit.exe`. Também se atualiza. |
-| 🐧 **Linux** (qualquer distro, inclusive **Arch**) | `SB.Orbit_x.y.z_amd64.AppImage` | Dê permissão de execução e abra. |
-| 🐧 Ubuntu · Mint · Debian · Pop!_OS | `SB.Orbit_x.y.z_amd64.deb` | Abra com o instalador de programas. |
-| 🐧 Fedora · openSUSE | `SB.Orbit-x.y.z-1.x86_64.rpm` | Abra com o instalador de programas. |
+| **Windows** | `SB.Orbit_x.y.z_x64-setup.exe` | **Recomendado.** Instalador; atualiza sozinho. |
+| Windows (sem instalar) | `SB-Orbit-x.y.z-portable-x64.zip` | Descompacte e abra o `SB Orbit.exe`. Também se atualiza. |
+| **Linux** (qualquer distro, inclusive **Arch**) | `SB.Orbit_x.y.z_amd64.AppImage` | Dê permissão de execução e abra. |
+| Ubuntu, Mint, Debian, Pop!_OS | `SB.Orbit_x.y.z_amd64.deb` | Abra com o instalador de programas. |
+| Fedora, openSUSE | `SB.Orbit-x.y.z-1.x86_64.rpm` | Abra com o instalador de programas. |
 
 > Os arquivos `.sig` e o `latest.json` são usados pela atualização automática (assinaturas de segurança). Não precisa baixar.
 
 > **Windows: "O Windows protegeu o computador"?** Aparece em programas novos sem certificado pago. Clique em **Mais informações → Executar assim mesmo**.
 
 <details>
-<summary><b>🐧 Linux: como abrir o AppImage</b></summary>
+<summary><b>Linux: como abrir o AppImage</b></summary>
 
 ```bash
 chmod +x SB.Orbit_*_amd64.AppImage
@@ -48,21 +48,24 @@ chmod +x SB.Orbit_*_amd64.AppImage
 Se pedir FUSE: `sudo apt install libfuse2` (Ubuntu) ou `sudo pacman -S fuse2` (Arch).
 </details>
 
-## ✨ O que ele faz
+## O que ele faz
 
-- **Conta Microsoft oficial**: login seguro no site da Microsoft; várias contas e skins.
+- **Conta Microsoft oficial**: login seguro no site da Microsoft; várias contas e skins (com prévia em 3D).
 - **Instâncias separadas**: cada uma com sua versão, mods, mundos e configurações. Vanilla, **Fabric**, **Forge**, **NeoForge** e **Quilt**.
-- **Mods e modpacks** do **Modrinth** e do **CurseForge**: busca, galeria, descrição traduzida, atualização com um clique e aviso de conflitos.
-- **Pronto para jogar**: kit inicial de otimização (Sodium, etc.), presets de desempenho e Java baixado sozinho.
-- **Cuida dos seus mundos**: backups manuais e automáticos (antes de atualizar e quando o jogo funcionou depois de mudar os mods).
+- **Mods e modpacks** do **Modrinth** e do **CurseForge**: busca com filtro por versão e loader, galeria, descrição traduzida, atualização com um clique (ou automática) e aviso de conflitos e de dependências na versão errada.
+- **Pronto para jogar**: pacotes iniciais (Otimizado, Bonito com shaders e **Ver longe** com Voxy/Distant Horizons), otimização da JVM explicada e Java baixado sozinho.
+- **Cuida dos seus mundos**: backups manuais e automáticos (ao fechar o jogo, por dia ou por semana, e antes de atualizar).
 - **Servidores**: lista com status ao vivo e entrar direto pelo launcher.
 - **Ajustes do jogo** dentro do launcher: FOV, gráficos, sons, shaders e configurações de mods.
 - **Diagnóstico de crash** em português, com a causa provável e o que fazer.
+- **Desempenho**: placa de vídeo dedicada em notebooks, prioridade do jogo, limite de downloads, modo leve e **Limpar espaço** (versões sem uso, cache e logs antigos).
 - **Discord**: mostra "Jogando" com a instância e o tempo.
-- **Temas**: Orbit, Minecraft (com partículas e sons do jogo), Clássico (estilo launcher antigo) e Nebulosa.
+- **Temas**: Orbit e Nebulosa (com fundo animado opcional), Minecraft (blocos do seu próprio jogo, biomas, neve, chuva, caverna com minérios e modo automático pelo clima) e Clássico (estilo launcher antigo).
+- **Do jeito que você usa**: abrir com o sistema, ícone perto do relógio, avisos do sistema e exportar/importar as configurações.
+- **Clientes experimentais** (opcional): Pomme e Horizon, reescritas do Minecraft em Rust feitas por outros projetos.
 - **Atualização automática** do próprio launcher, com assinatura verificada.
 
-## 🎨 Temas
+## Temas
 
 | Minecraft | Clássico |
 |---|---|
@@ -70,7 +73,7 @@ Se pedir FUSE: `sudo apt install libfuse2` (Ubuntu) ou `sudo pacman -S fuse2` (A
 
 <p align="center"><img src=".github/assets/configuracoes.png" alt="Configurações com o tema Nebulosa" width="80%"></p>
 
-## ❓ Perguntas rápidas
+## Perguntas rápidas
 
 <details>
 <summary><b>Precisa ter o Minecraft original?</b></summary>
@@ -84,7 +87,7 @@ No seu computador. Não existe servidor do S&B Orbit no meio: o launcher fala di
 
 <details>
 <summary><b>Como atualizo?</b></summary>
-Sozinho. Quando sai versão nova aparece um aviso; atualizações pequenas são opcionais e as grandes são obrigatórias (dá para adiar duas vezes).
+Sozinho. Quando sai versão nova aparece um aviso. As atualizações normais são opcionais (dá para pular); só as marcadas como obrigatórias precisam ser instaladas, e mesmo assim dá para adiar duas vezes.
 </details>
 
 <details>
@@ -100,7 +103,7 @@ A modern, lightweight launcher for Minecraft: Java Edition on Windows and Linux,
 
 S&B Orbit (also written "SB Orbit") is a personal, non-commercial launcher and mod management client. It needs access to Minecraft Services only to sign in legitimate game owners, verify ownership and start the game they own.
 
-**Download:** grab the latest installer from the [Releases](https://github.com/BSchastai/S-B-Orbit/releases/latest) page (`*_x64-setup.exe` for Windows, `*.AppImage` / `*.deb` / `*.rpm` for Linux). The interface is available in Portuguese and English.
+**Download:** grab the latest installer from the [Releases](https://github.com/BSchastai/S-B-Orbit/releases/latest) page (`*_x64-setup.exe` for Windows, `*.AppImage` / `*.deb` / `*.rpm` for Linux). The interface is available in Portuguese, English, Spanish, French and German.
 
 ### Status
 
@@ -114,6 +117,7 @@ Public beta. The source code is not public. Windows and Linux builds are publish
 4. **Official downloads:** game files, libraries, assets and Java runtimes are downloaded unmodified from Mojang's official servers (piston-meta.mojang.com, libraries.minecraft.net, resources.download.minecraft.net) and verified by SHA-1.
 5. **API scope:** only /authentication/login_with_xbox, /minecraft/profile and /entitlements/mcstore are used, to get the player's UUID, name and skin and to start the local game process.
 6. **Offline play:** only available after a Microsoft account that owns the game has signed in.
+7. **Optional services:** mod and modpack search talks directly to api.modrinth.com and api.curseforge.com (CurseForge only with the user's own API key). The optional weather-based theme animation sends only a city name and its coordinates to Open-Meteo. The optional experimental clients (Pomme, Horizon) are third-party projects downloaded from their official GitHub releases and checked against the published checksums; Horizon uses its own Microsoft sign-in and never receives S&B Orbit's tokens.
 
 ### Disclaimer
 
