@@ -52,8 +52,10 @@ Se pedir FUSE: `sudo apt install libfuse2` (Ubuntu) ou `sudo pacman -S fuse2` (A
 
 - **Conta Microsoft oficial**: login seguro no site da Microsoft; várias contas e skins (com prévia em 3D).
 - **Instâncias separadas**: cada uma com sua versão, mods, mundos e configurações. Vanilla, **Fabric**, **Forge**, **NeoForge** e **Quilt**.
-- **Mods e modpacks** do **Modrinth** e do **CurseForge**: busca com filtro por versão e loader, galeria, descrição traduzida, atualização com um clique (ou automática) e aviso de conflitos e de dependências na versão errada.
+- **Mods e modpacks** do **Modrinth** e do **CurseForge**: busca com filtro por versão e loader (com quantos resultados cada versão tem), galeria, descrição traduzida, atualização com um clique (ou automática) e aviso de conflitos e de dependências na versão errada.
+- **Explorar sem abrir instância**: escolha em quais instâncias instalar (várias de uma vez) ou crie uma nova já certa para o mod. Mods Fabric no Forge com o Sinytra Connector também são reconhecidos.
 - **Pronto para jogar**: pacotes iniciais (Otimizado, Bonito com shaders e **Ver longe** com Voxy/Distant Horizons), otimização da JVM explicada e Java baixado sozinho.
+- **Prints**: galeria com os prints de todas as instâncias, e o print tirado no jogo (F2) já vai para o Ctrl+V.
 - **Cuida dos seus mundos**: backups manuais e automáticos (ao fechar o jogo, por dia ou por semana, e antes de atualizar).
 - **Servidores**: lista com status ao vivo e entrar direto pelo launcher.
 - **Ajustes do jogo** dentro do launcher: FOV, gráficos, sons, shaders e configurações de mods.
